@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+:root {
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-outfit);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), serif;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.9s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
