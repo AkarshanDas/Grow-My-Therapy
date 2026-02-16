@@ -226,7 +226,7 @@ export default function RedesignPage() {
 
         <div>
           <span className="text-[#D4AF37] uppercase tracking-widest text-xs">
-            The Physical Practice
+            Our Office
           </span>
           <h2 className="text-[clamp(36px,4vw,56px)] font-serif mt-6 mb-8">
             A Sanctuary Designed for Nervous System Calm.
